@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff8f0;
+    display: flex;
+    justify-content: center;
+    width: 1450px;
+}
+
+.best-seller {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    margin-top: 10px;
+}
+
+.img-food  {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.189);
+    width: 320px;
+    height: 446.11px;
+    top: 136.8px;
+    left: 80px;
+    margin: 20px 20px 50px 20px;
+}
+
+.img-food img {
+    width: 320px;
+    height: 220px;
+    border-radius: 20px;
+}
+
+h2 {
+    font-family: "Playfair Display", serif;
+    color: #E76F51;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    height: 76.8px;
+    margin-top: 15px;
+}
+
+.food-name {
+    font-family: "Playfair Display", serif;
+    top: 248px;
+    left: 25px;
+    font-weight: 800;
+    width: 206.47px;
+    font-size: 25px;
+    height: 34px;
+    margin: 20px;
+}
+
+.price {
+    font-family: "Quicksand", sans-serif;
+    top: 300px;
+    left: 25px;
+    font-weight: 600;
+    color: #E76F51;
+    width: 206.47px;
+    font-size: 22px;
+    height: 30px;
+    margin: 10px 20px;
+}
+
+.detail {
+    font-family: "Quicksand", sans-serif;
+    width: 262px;
+    height: 71.19px;
+    top: 346.33px;
+    left: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    color:#666666;
+    margin: 0px 20px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1200px;
+    height: 300;
+    margin: 50px 0px 70px 0px;
+}
+
+.food {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 17.6px;
+    width: 280px;
+    height: 68.14px;
+    padding: 25px;
+    margin: 10px 50px;
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.077);
+}
+
+.namefood {
+    font-family: "Quicksand", sans-serif;
+    width: 132.05px;
+    height: 25px;
+    top: 23px;
+    left: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #3C2F2F;
+}
+
+.cost {
+    font-family: "Quicksand", sans-serif;
+    width: 60.21px;
+    height: 20px;
+    top: 23.26px;
+    left: 200.17px;
+    font-weight: 600;
+    font-size: 16px;
+    color:#E76F51;
+}
+
